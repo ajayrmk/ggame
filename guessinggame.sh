@@ -1,11 +1,14 @@
 # File: guessinggame.sh
 
-# this program allows the user to guess the number of files in the current directory until the correct answer is given
+# the program is iterated until the user enters a correct response
+
+# variable to store the real value of number of files in the directory
+number=$(ls -l | wc -l)
 
 # define function
 function game {
 
-# loop while user gives incorrect answer
+	# loop while user gives incorrect answer
 	while true
 
 		do
