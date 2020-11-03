@@ -1,3 +1,0 @@
-<h1>GUESSING GAME</h1>
-Tue Nov  3 04:38:22 AM +04 2020
-17
